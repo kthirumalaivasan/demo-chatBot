@@ -1,0 +1,63 @@
+{
+  "home_page": {
+    "brand_ambassador": {
+      "name": "M.S. Dhoni",
+      "quote": "I’m happy to be a part of Garuda Aerospace & look forward to witnessing their growth story with the unique drone solutions they have to offer."
+    },
+    "kisan_agri_drone": {
+      "description": "Made In India Kisan/Agri Drone to empower Youth & Farmers with Affordable Precision Agriculture Drone Technology.",
+      "advantages": [
+        "Covers 200 acres in just 30 minutes",
+        "Provides timely and accurate data",
+        "Helps smallholder farmers act before economic damages occur"
+      ],
+      "subsidy": {
+        "provided_by": "Minister of Agriculture & Farmers Welfare",
+        "details": "40-50% subsidy on drones for different farmer groups across India"
+      }
+    },
+    "impact": {
+      "kilometers_travelled": "1.08 Cr",
+      "projects": "350",
+      "districts_covered": "478+",
+      "centers_of_excellence": "62",
+      "partners": "1,000+",
+      "rural_youth_trained_or_jobs_created": "100,000+",
+      "vans_deployed": "1,208",
+      "drones_distributed": "6,398"
+    },
+    "vision": {
+      "tagline": "Catalyzing the Vision of Making India 'The Drone Hub'",
+      "initiative": "Kisan Drone Yatra",
+      "flag_off": "Flag-off by Hon'ble P.M. Shri Narendra Modi"
+    },
+    "ceo_message": {
+      "name": "Agnishwar Jayaprakash",
+      "title": "Founder & CEO, Garuda Aerospace",
+      "quote": "Garuda Aerospace has set a target of manufacturing two lakh drones in the next two years for our farmers. This will be a huge support to the Indian economy in generating employment for trained pilots. These drones will help farmers in transporting their produce such as fruits, vegetables, and flowers to markets in minimal time, boosting their income. Additionally, they will be used to spray insecticides and nutrients in the fields, further enhancing agricultural productivity and sustainability."
+    },
+    "women_empowerment_initiative": {
+      "program_name": "NAMO DRONE DIDIs",
+      "scheme_description": "Pioneering women-led development in Indian agriculture under Prime Minister Shri Narendra Modi's leadership.",
+      "details": [
+        "Connects 15,000 self-help groups",
+        "Trains women to become drone pilots",
+        "Uses drones for crop monitoring, fertiliser spraying, and seed sowing",
+        "Provides additional income opportunities for women"
+      ]
+    },
+    "impact_book": {
+      "year": 2023,
+      "description": "Showcasing transformative initiatives, inspiring collaborations, and impactful strides toward a sustainable future."
+    },
+    "innovations": {
+      "tagline": "Building a Secure, Progressive, Tech-led Nation",
+      "applications": [
+        "Agriculture",
+        "Defense",
+        "Surveillance & Monitoring",
+        "Emergency Services"
+      ]
+    }
+  }
+}

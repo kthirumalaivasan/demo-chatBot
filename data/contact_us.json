@@ -1,0 +1,26 @@
+{
+  "contact_info": {
+    "company_name": "Garuda Aerospace",
+    "address": "24/46, KB Dasan Rd, Seetammal Colony, Lubdhi Colony, Alwarpet, Chennai, Tamil Nadu – 600018",
+    "emails": [
+      "info@garudaaerospace.com",
+      "service@garudaaerospace.com"
+    ],
+    "phone_numbers": [
+      "+91-78248-33884",
+      "+91-77888-68884"
+    ]
+  },
+  "help_options": {
+    "message": "Need Help With Something Specific? Please choose the department & fill in your details. Our concerned team will contact you shortly.",
+    "departments": [
+      "Drone Enquiry",
+      "Claim Your Subsidy",
+      "Loan for Agri Drone",
+      "Partner With Us",
+      "Dealership & Distributor",
+      "Jobs / Hiring"
+    ],
+    "link": "https://www.garudaaerospace.com/contact/"
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "shop": [
+    {
+      "product": "Flow Sensor",
+      "price": "₹4,448.60 inc GST",
+      "material": "Plastic",
+      "usage": "It is connected to the motor pump and the tubes To measure the flow rate."
+    },
+    {
+      "product": "Hexagonal Tube Holder",
+      "price": "₹236.00 inc GST",
+      "material": "Plastic",
+      "usage": "To hold the tubes.",
+      "properties": "Lightweight with a high strength-to-weight ratio. Shock resistant material."
+    },
+    {
+      "product": "12x8mm Water Tube",
+      "price": "₹141.00 inc GST",
+      "material": "Polyethylene tube",
+      "usage": "Lightweight with a high strength-to-weight ratio material with Thermally and electrically insulating."
+    },
+    {
+      "product": "3x8mm Allen Screw",
+      "price": "₹9.44 inc GST",
+      "material": "Stainless Steel",
+      "usage": "Allen Screws are used in applications with insufficient clearance to use a fastener with an external hexagon head."
+    },
+    {
+      "product": "3x10mm Allen Screw",
+      "price": "₹9.44 inc GST",
+      "material": "Stainless Steel",
+      "usage": "Allen Screws are used in applications with insufficient clearance to use a fastener with an external hexagon head."
+    },
+    {
+      "product": "6x4mm Water Tube",
+      "price": "₹70.80 inc GST",
+      "material": "Polyethylene tube",
+      "usage": "Lightweight with a high strength-to-weight ratio material with Thermally and electrically insulating."
+    },
+    {
+      "product": "Vertical Landing Gear",
+      "price": "₹1,687.40 inc GST",
+      "material": "Aluminium",
+      "usage": "It is used for landing gear due to its high strength toughness and great corrosion resistance."
+    },
+    {
+      "product": "XT90 Male/Female Connector",
+      "price": "₹507.40 inc GST",
+      "material": "Nylon with Brass",
+      "usage": "Used to connect the Battery to the power distribution board."
+    },
+    {
+      "product": "8x5mm Water Tube",
+      "price": "₹94.40 inc GST",
+      "material": "Polyethylene tube",
+      "usage": "Lightweight with a high strength-to-weight ratio material with Thermally and electrically insulating."
+    },
+    {
+      "product": "4x8mm Allen Screw",
+      "price": "₹9.44 inc GST",
+      "material": "Stainless Steel",
+      "usage": "Allen Screws are used in applications with insufficient clearance to use a fastener with an external hexagon head."
+    },
+    {
+      "product": "Pixhawk Cube Flight Controller",
+      "price": "₹41,476.50 inc GST",
+      "specs": "Three redundant IMUs (accels, gyros and compass). Two redundant MS5611 barometers.",
+      "usage": "It receives user commands and controls the motors that allows it to keep the drone in the air."
+    },
+    {
+      "product": "XT60 Male/Female Connector",
+      "price": "₹123.90 inc GST",
+      "material": "Nylon with Brass",
+      "usage": "Used to connect the Propulsion system to general power distribution board."
+    },
+    {
+      "product": "Bottom Plate Mount",
+      "price": "₹3,068.00 inc GST",
+      "material": "Plastic",
+      "usage": "Lightweight with a high strength-to-weight ratio material with Thermally and electrically insulating."
+    },
+    {
+      "product": "Circle Tube Holder",
+      "price": "₹236.00 inc GST",
+      "material": "Plastic",
+      "process": "Single Injection Molding",
+      "properties": "Lightweight with a high strength-to-weight ratio. Can be manufactured inexpensively and mass produced. Shock resistant. Thermally and electrically insulating.",
+      "usage": "It is fixed on the arm to hold the tubes."
+    },
+    {
+      "product": "Motor CCW",
+      "price": "₹19,942.00 inc GST",
+      "material": "Aluminium Alloy",
+      "motor": "Hobby wing motor",
+      "stator_size": "81 x 20 mm",
+      "kv_rating": "180KV",
+      "max_power": "770W",
+      "weight": "180g",
+      "usage": "Motors are used to give the power to lift the drone."
+    },
+    {
+      "product": "Motor Arm",
+      "price": "₹5,349.00 inc GST",
+      "material": "Carbon Fiber, ABS Plastic",
+      "properties": "Tensile strength – 55MPa, high resistance to being deformed without permanent effects (elastic modulus), resistance to tension.",
+      "usage": "Used to connect Motors."
+    },
+    {
+      "product": "Motor CW",
+      "price": "₹19,942.00 inc GST",
+      "material": "Aluminium Alloy",
+      "motor": "Hobby wing motor",
+      "stator_size": "81 x 20 mm",
+      "kv_rating": "180KV",
+      "max_power": "770W",
+      "weight": "180g",
+      "usage": "Motors are used to give the power to lift the drone."
+    },
+    {
+      "product": "Power Distribution Board",
+      "price": "₹10,738.00 inc GST",
+      "usage": "Allows transferring the power from the battery to ESCs / Motors and generates power supply for the autopilot and other peripherals with different voltage levels. Also, provides functionality for battery voltage/current measurements."
+    },
+    {
+      "product": "Centre Frame",
+      "price": "₹42,952.00 inc GST",
+      "material": "Plastic",
+      "process": "Single Injection Molding",
+      "properties": "Lightweight with a high strength-to-weight ratio. Water resistant. Shock resistant. Thermally and electrically insulating.",
+      "usage": "Frame used to connect and hold other components."
+    },
+    {
+      "product": "Charger",
+      "price": "₹32,981.00 inc GST",
+      "material": "Aluminium",
+      "usage": "A dual-channel 6S LiPo charger for industrial application drones. Provides balance charging for two packs of 6 cell batteries simultaneously."
+    },
+    {
+      "product": "6s Battery",
+      "price": "₹32,214.00 inc GST",
+      "capacity": "16,000 mAh (6S), 30C",
+      "voltage": "44.4 V",
+      "connector": "XT 90",
+      "type": "Lithium Polymer",
+      "charging_time": "30~40 minutes"
+    },
+    {
+      "product": "10L Tank",
+      "price": "₹17,641.00 inc GST",
+      "material": "ABS Plastic",
+      "usage": "To carry the liquid (Pesticides).",
+      "properties": "Lightweight, High strength-to-weight ratio, Shock resistance, Thermal insulation, Electrical insulation."
+    },
+    {
+      "product": "5L Pump",
+      "price": "₹10,431.20 inc GST",
+      "material": "Plastic",
+      "usage": "Supplying the required liquid for spraying."
+    },
+    {
+      "product": "Cowling",
+      "price": "₹2,761.20 inc GST",
+      "material": "Plastic",
+      "usage": "Top cowling to cover all the electronic components. Lightweight with a high strength-to-weight ratio material with Thermally and electrically insulating."
+    },
+    {
+      "product": "12/2 Pneumatic Connector",
+      "price": "₹398.84 inc GST",
+      "material": "Polybutylene terephthalate (PBT)",
+      "usage": "Connecting the liquid line from Tank to Motor."
+    },
+    {
+      "product": "Horizontal Landing Gear",
+      "price": "₹2,761.20 inc GST",
+      "material": "Aluminium",
+      "usage": "Used for landing gear due to its high strength, toughness, and great corrosion resistance."
+    },
+    {
+      "product": "Single Nozzle",
+      "price": "₹1,840.80 inc GST",
+      "material": "Plastic",
+      "usage": "Maximum Spray Speed per nozzle: 1L/min. Spray Width: Up to 8 acres/Hour."
+    },
+    {
+      "product": "23 inch Propeller CCW",
+      "price": "₹2,454.40 inc GST",
+      "material": "Composite Carbon Fibre",
+      "size": "23 inch",
+      "pitch": "88",
+      "usage": "Attaching the propeller to the motors for drone lift."
+    },
+    {
+      "product": "23 inch Propeller CW",
+      "price": "₹2,454.40 inc GST",
+      "material": "Composite Carbon Fibre",
+      "usage": "Propeller will be attached to the motors which will lift the drone."
+    },
+    {
+      "product": "Arm Rod",
+      "price": "₹11,505.00 inc GST",
+      "material": "Aluminum",
+      "properties": "Tensile strength – 210 MPa, high resistance to being deformed without permanent effects (elastic modulus), resistance to tension.",
+      "usage": "Used to connect Motor arm to centre frame."
+    }
+  ]
+}

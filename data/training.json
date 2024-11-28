@@ -1,0 +1,50 @@
+{
+  "training": {
+    "RemotePilotTrainingOrganization": {
+      "description": "Garuda Aerospace delivers advanced drone pilot training in accordance with Rule 39 of the Drone Rules 2021, with DGCA approval for Remote Pilot Training Organization (RPTO).",
+      "courses": [
+        {
+          "name": "DGCA-CERTIFIED DRONE PILOT TRAINING (Course-A)",
+          "class": "Small Training",
+          "duration": "8 Days",
+          "description": "Comprehensive drone pilot training approved by DGCA, focusing on efficient, safe, and cost-effective drone piloting with hands-on experience led by skilled instructors."
+        },
+        {
+          "name": "DGCA-CERTIFIED DRONE PILOT TRAINING (Course-B)",
+          "class": "Small and Medium Training",
+          "duration": "13 Days (8 + 5)",
+          "description": "Comprehensive drone pilot training authorized by DGCA, focusing on efficient, safe, and cost-effective drone piloting through hands-on experience guided by skilled instructors."
+        },
+        {
+          "name": "DGCA-CERTIFIED DRONE PILOT TRAINING (Course-C)",
+          "class": "Medium Without Small RPC(Direct)",
+          "duration": "8 Days",
+          "description": "Thorough drone pilot training endorsed by DGCA, focusing on efficient, safe, and cost-effective drone piloting with hands-on sessions led by experienced instructors."
+        },
+        {
+          "name": "DGCA-CERTIFIED DRONE PILOT TRAINING (Course-D)",
+          "class": "Medium With Small RPC (Top-Up)",
+          "duration": "5 Days",
+          "description": "Drone pilot training academy authorized by DGCA, focusing on proficient, secure, and budget-friendly drone operation with practical training guided by experienced instructors."
+        }
+      ]
+    },
+    "CenterOfExcellence": {
+      "description": "The Center of Excellence (CoE) aims to empower youth and create a vibrant drone ecosystem by establishing industry-driven centers at Higher Education Institutions (HEIs). HEIs will engage in UAV research activities with active guidance and collaboration.",
+      "features": [
+        "Learn from India's highly qualified & experienced drone training instructors.",
+        "Be your own boss & start your entrepreneurial journey immediately.",
+        "Well-equipped labs with the latest simulation software & tools.",
+        "All India placement support.",
+        "Live field experience on industrial and agricultural projects – Pan India.",
+        "Focus on nourishing excellence in every candidate."
+      ]
+    },
+    "DroneTraining": {
+      "description": "Learn from India’s most qualified and experienced drone training instructors with a focus on practical learning. Well-equipped labs provide the latest simulation software and tools, preparing students for real-world applications."
+    },
+    "InterestedInSettingUpCoE": {
+      "description": "For institutions interested in setting up a Center of Excellence (CoE), Garuda Aerospace provides guidance and expertise to establish research activities focused on UAVs, engaging both students and faculty members in industry-driven problems."
+    }
+  }
+}

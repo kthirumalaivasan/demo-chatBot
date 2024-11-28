@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot - Garuda Aerospace</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        #chatbox {
+            width: 100%;
+            max-width: 600px;
+            height: 600px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            overflow-y: scroll;
+            padding: 10px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 0 auto; /* Center the chatbox */
+        }
+        #userInput {
+            width: calc(100% - 100px);
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        button {
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #28a745;
+            color: white;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .header img {
+            max-height: 50px; /* Adjust the height as needed */
+        }
+        .message {
+            margin: 5px 0;
+        }
+        .user {
+            text-align: right;
+            color: blue;
+        }
+        .bot {
+            text-align: left;
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <!-- Update the paths below with correct relative paths or absolute URLs -->
+        <img src="C:/Users/Administrator/Desktop/Garuda/all garuda/images/ga.jpg"> 
+        <h1>🤖 Garuda The Bot 🤖</h1>
+        <img src="C:/Users/Administrator/Desktop/Garuda/all garuda/images/.jpg"> 
+    </div>
+    <div id="chatbox"></div>
+    <input type="text" id="userInput" placeholder="Ask about Garuda Aerospace..." onkeypress="checkEnter(event)">
+    <button onclick="sendMessage()">Send</button>
+
+    <script>
+        async function sendMessage() {
+            const userInput = document.getElementById("userInput").value;
+            if (!userInput) return;
+
+            // Display user message
+            const chatbox = document.getElementById("chatbox");
+            chatbox.innerHTML += `<div class="message user">${userInput}</div>`;
+            document.getElementById("userInput").value = '';
+
+            // Send message to the server
+            const response = await fetch('/chat', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ message: userInput })
+            });
+
+            const data = await response.json();
+            if (data.response) {
+                // Display bot response
+                chatbox.innerHTML += `<div class="message bot">${data.response}</div>`;
+                chatbox.scrollTop = chatbox.scrollHeight; // Scroll to the bottom
+            }
+        }
+
+        function checkEnter(event) {
+            if (event.key === 'Enter') {
+                sendMessage();
+            }
+        }
+    </script>
+</body>
+</html>

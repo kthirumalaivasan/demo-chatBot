@@ -1,0 +1,89 @@
+{
+  "about_us": {
+    "introduction": {
+      "description": "Garuda Aerospace pioneers transformative advancements in Precision Agri Tech and Industry 4.0. Established in 2015 with just five members, the company now has over 200 employees, a fleet of 400+ drones, and 500+ pilots operating in 84 cities.",
+      "offerings": {
+        "drones": 30,
+        "services": 50,
+        "ready_drones": 400,
+        "ready_pilots": 500
+      },
+      "clients_and_partners": [
+        "TATA",
+        "Godrej",
+        "Adani",
+        "Reliance",
+        "Swiggy",
+        "Flipkart",
+        "Delhivery",
+        "L&T",
+        "Survey of India",
+        "SAIL",
+        "NTPC",
+        "IOCL",
+        "Ninjakart",
+        "Narayana Health",
+        "Intel",
+        "Amazon",
+        "Wipro",
+        "IISC",
+        "MIT Boston",
+        "NHAI"
+      ],
+      "focus_areas": [
+        "Precision Agri Tech",
+        "Industry 4.0",
+        "Defense",
+        "Aerospace"
+      ]
+    },
+    "vision": "To make India the drone capital of the world by accelerating industries through cost-effective and strategic drone solutions, combatting climate change with personalized afforestation plans, and fostering business growth for all industries.",
+    "mission": "To design cost-effective, human-centric drone solutions that cater to emergencies, promote data-driven growth, and expand drone capabilities to help industries and India flourish.",
+    "leadership": {
+      "agnishwar_jayaprakash": {
+        "title": "Founder & CEO",
+        "background": "Harvard Business School alumnus, international swimmer, and first-generation entrepreneur from Chennai.",
+        "quote": "As a technology enthusiast and a believer in innovation, I believe that drones are the way to go. Drones represent both the present and the future. We are on the path to becoming the first-ever drone unicorn startup in India, aiming to sell 25,000 drones in the next 18 months and export 10,000 drones to 100 countries within 15 months.",
+        "key_initiatives": [
+          "Manufacturing Make in India drones",
+          "Exporting drones globally",
+          "Engaging with government initiatives like Drone Shakti"
+        ]
+      },
+      "rithika_mohan": {
+        "title": "Co-Founder & CIO",
+        "background": {
+          "education": "Bachelor of Business Administration from Christ University, Bangalore",
+          "experience": "Specialized in D2C, infrastructure, government, and public service sectors; former Director at PC Realty, India."
+        },
+        "quote": "With innovation as our compass and diversity as our strength, we soar towards a future where every aspiring aviator, regardless of gender, finds their wings and reaches for the sky.",
+        "initiatives": [
+          "Advocating for diversity and inclusion",
+          "Aiming for a 50% female workforce by 2024",
+          "Inspiring young women in STEM and technology"
+        ],
+        "achievements": [
+          "First woman drone pilot of Garuda Aerospace",
+          "One of the few DGCA-licensed women drone pilots in India",
+          "Driving significant partnerships to enhance Garuda's impact"
+        ]
+      }
+    },
+    "government_support": {
+      "liberalized_rules": "Drone rules liberalized in 2021",
+      "drone_shakti": "Union Government initiative to support startups in drone-based applications",
+      "agri_impact": "Potential to boost Indian agriculture GDP by 1.5%",
+      "engagements": [
+        "ICAR",
+        "NABARD",
+        "Department of Agriculture",
+        "KVKs",
+        "State Agriculture Universities",
+        "FPOs and FPCs across India"
+      ]
+    },
+    "collaborations": {
+      "chennai_super_kings": "When Lions & Eagles Unite! Showcasing the benefits of Garuda Drones for farmers, forces, and citizens."
+    }
+  }
+}

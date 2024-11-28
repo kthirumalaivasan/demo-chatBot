@@ -1,0 +1,182 @@
+{
+    "products": [
+      {
+        "title": "Kisan Drone / Agri Drone",
+        "description": "An Agri Drone, also known as an agricultural drone or farm drone, is an unmanned aerial vehicle (UAV) specifically designed for agricultural applications. These drones are equipped with various sensors, cameras, and other technologies that enable them to collect data and perform tasks related to farming and crop management."
+      },
+      {
+        "title": "Surveillance Drone",
+        "description": "A Surveillance Drone, also known as a monitoring or reconnaissance drone, is an unmanned aerial vehicle (UAV) specifically designed for surveillance and monitoring purposes. These drones are equipped with advanced technologies that enable them to gather real-time visual and data intelligence from the air.",
+        "uses": [
+          "Security and Law Enforcement",
+          "Border and Maritime Surveillance",
+          "Critical Infrastructure Protection",
+          "Environmental Monitoring",
+          "Event Management"
+        ],
+        "features": [
+          "High-Resolution Cameras",
+          "Real-Time Video Transmission",
+          "Gimbal Stabilization",
+          "Autonomous Flight and Waypoint Navigation",
+          "Geolocation and GPS Tracking",
+          "Intelligent Tracking and Object Recognition",
+          "Long Flight Time and Range",
+          "Encryption and Data Security"
+        ]
+      },
+      {
+        "title": "Mapping & Survey Drone",
+        "description": "A Mapping & Survey Drone, also known as a surveying drone or an aerial mapping drone, is an unmanned aerial vehicle (UAV) specifically designed for conducting mapping and surveying tasks. These drones are equipped with advanced sensors and imaging technology that enable them to collect accurate geospatial data from the air.",
+        "features": [
+          "High-Resolution Imaging",
+          "Lidar or Photogrammetry Capabilities",
+          "GPS and Positioning Systems",
+          "Autonomous Flight and Waypoint Navigation",
+          "Real-Time Data Transmission",
+          "Extended Flight Time",
+          "Safety Features"
+        ],
+        "uses": [
+          "Aerial Mapping",
+          "Surveying",
+          "Infrastructure Inspection",
+          "Environmental Monitoring",
+          "Disaster Management"
+        ]
+      },
+      {
+        "title": "Surya Solar Panel Cleaning Drone",
+        "description": "A Solar Panel Cleaning Drone is a specialized unmanned aerial vehicle (UAV) designed for the purpose of cleaning solar panels. These drones are equipped with specific features and mechanisms that enable them to efficiently and effectively clean solar panels installed in large-scale solar power plants or residential rooftops.",
+        "features": [
+          "Water Spraying Mechanism",
+          "Soft Bristle Brushes",
+          "Precision Navigation",
+          "Autonomous Operation",
+          "Intelligent Sensors",
+          "Lightweight and Portable",
+          "Weather Resistance",
+          "Real-Time Monitoring"
+        ],
+        "uses": [
+          "Solar Power Plants",
+          "Residential and Commercial Buildings"
+        ]
+      },
+      {
+        "title": "Vriksh Vahaan - Seed Dropping Drone",
+        "description": "A Seed Dropping Drone, also known as an agricultural seeding drone or precision seed sower, is an unmanned aerial vehicle (UAV) designed specifically for the purpose of sowing seeds in agricultural fields or reforestation efforts. These drones are equipped with specialized mechanisms that allow them to accurately and efficiently distribute seeds over large areas.",
+        "features": [
+          "Seed Hopper and Dispenser",
+          "GPS and Precision Navigation",
+          "Autonomous Operation",
+          "Variable Seed Rate Control",
+          "Payload Capacity",
+          "Weather Resistance",
+          "Data Collection",
+          "Efficient Battery Life"
+        ],
+        "uses": [
+          "Agriculture",
+          "Reforestation",
+          "Erosion Control"
+        ]
+      },
+      {
+        "title": "Loudspeaker Drone",
+        "description": "In India, law enforcement quickly adopted our drones equipped with loudspeaker systems, drone loud speakers, and drone speakers to remind communities of social distancing standards. These drones, featuring weather-resistant construction, are instrumental in monitoring the implementation of regulations during the COVID-19 pandemic.",
+        "features": [
+          "Waterproof Cameras",
+          "High-Quality Audio Systems",
+          "Bluetooth Speaker Capabilities"
+        ]
+      },
+      {
+        "title": "UGV (Unmanned Ground Vehicle)",
+        "description": "Our UGVs, including unmanned ground vehicles, serve multiple civilian roles such as urban search and rescue, firefighting, nuclear plant operations, crowd control, and agricultural spraying. Operating autonomously, these UGV drones navigate complex environments and relay data for remote teleoperation.",
+        "features": [
+          "Autonomous Navigation",
+          "Teleoperation Capability",
+          "Versatile Applications"
+        ]
+      },
+      {
+        "title": "Boat",
+        "description": "The water-cleaning boat project was initiated to aid in the remote navigation of the boat for cleaning ponds and coastal areas. Powered by a motor-driven propeller, the boat moves forward efficiently, gathering debris and pollutants using mesh grippers.",
+        "features": [
+          "Motor-Driven Propeller",
+          "Mesh for Debris Collection",
+          "Remote-Controlled"
+        ]
+      },
+      {
+        "title": "Submarine",
+        "description": "Introducing our groundbreaking submarine drone, designed for exploration and environmental monitoring. This remote underwater vehicle is equipped with advanced features, including a rotatable wireless camera for remote navigation and exploration.",
+        "features": [
+          "Rotatable Wireless Camera",
+          "Motor-Driven Propeller",
+          "Remote Navigation"
+        ],
+        "uses": [
+          "Marine Research",
+          "Environmental Monitoring"
+        ]
+      },
+      {
+        "title": "Fixed Wing VTOL",
+        "description": "Fixed Wing VTOL (Vertical Takeoff and Landing) drones combine the characteristics of both fixed-wing and multirotor drones, offering vertical takeoff, landing, and horizontal flight for long-range and efficient operations.",
+        "features": [
+          "Vertical Takeoff and Landing",
+          "Transition to Fixed-Wing Flight",
+          "Hybrid Flight Modes",
+          "Long Flight Endurance",
+          "Payload Capacity",
+          "Efficient Forward Flight"
+        ],
+        "uses": [
+          "Aerial Mapping and Surveying",
+          "Infrastructure Inspection",
+          "Environmental Monitoring",
+          "Surveillance and Security",
+          "Emergency Response"
+        ]
+      },
+      {
+        "title": "Industry 4.0 Drones",
+        "description": "Industry 4.0 Drones are integrated into the Fourth Industrial Revolution, featuring connectivity, sensor integration, autonomous operation, and AI for smart manufacturing and data exchange.",
+        "features": [
+          "Connectivity and Data Exchange",
+          "Sensor Integration",
+          "Autonomous Operation",
+          "AI and Machine Learning",
+          "Cloud Integration and Big Data Analytics"
+        ],
+        "uses": [
+          "Inventory Management",
+          "Asset Monitoring",
+          "Quality Control",
+          "Environmental Monitoring and Safety Compliance",
+          "Supply Chain Optimization"
+        ]
+      },
+      {
+        "title": "Stringing Drone",
+        "description": "Stringing Drones are designed for the installation and maintenance of power transmission lines. These drones are equipped with heavy payload capacity, autonomous flight, and cable management systems for efficient power line stringing.",
+        "features": [
+          "Heavy Payload Capacity",
+          "High-Tension Line Capability",
+          "Autonomous Flight",
+          "GPS and Precision Navigation",
+          "Cable Management Systems",
+          "Real-Time Monitoring",
+          "Weather Resistance",
+          "Safety Features"
+        ],
+        "uses": [
+          "Power Line Installation",
+          "Maintenance and Repair"
+        ]
+      }
+    ]
+  }
+  
