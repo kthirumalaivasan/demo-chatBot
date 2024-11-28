@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 # Load the about_us.json data from the given file path
 def load_about_us_data():
-    file_path = r"C:\Users\Administrator\Desktop\Garuda\all garuda\data\about_us.json"
+    file_path = r"./data/about_us.json"
     try:
         with open(file_path, 'r') as file:
             return json.load(file)
@@ -16,7 +16,7 @@ def load_about_us_data():
 
 # Load the contact_us.json data from the given file path
 def load_contact_us_data():
-    file_path = r"C:\Users\Administrator\Desktop\Garuda\all garuda\data\contact_us.json"
+    file_path = r"./data/contact_us.json"
     try:
         with open(file_path, 'r') as file:
             return json.load(file)
@@ -25,7 +25,7 @@ def load_contact_us_data():
 
 # Load the faqs.json data from the given file path
 def load_faqs_data():
-    file_path = r"C:\Users\Administrator\Desktop\Garuda\all garuda\data\faqs.json"
+    file_path = r"./data/faqs.json"
     try:
         with open(file_path, 'r') as file:
             return json.load(file)
@@ -34,7 +34,7 @@ def load_faqs_data():
 
 # Load the homepage.json data from the given file path
 def load_homepage_data():
-    file_path = r"C:\Users\Administrator\Desktop\Garuda\all garuda\data\homepage.json"
+    file_path = r"./data/homepage.json"
     try:
         with open(file_path, 'r') as file:
             return json.load(file)
@@ -43,7 +43,7 @@ def load_homepage_data():
     
 #Load the media.json data from the given file path
 def load_media_data():
-    file_path = r"C:/Users/Administrator/Desktop/Garuda/all garuda/data/media.json"
+    file_path = r"./data/media.json"
     try:
         with open(file_path, 'r') as file:
             return json.load(file)
@@ -51,7 +51,7 @@ def load_media_data():
         return None
     
 def load_products_data():
-    file_path = r"C:\Users\Administrator\Desktop\Garuda\all garuda\data\products.json"
+    file_path = r"./data/products.json"
     try:
         with open(file_path, 'r') as file:
             return json.load(file)
@@ -60,7 +60,7 @@ def load_products_data():
 
 # Load the services.json data from the given file path
 def load_services_data():
-    file_path = r"C:\Users\Administrator\Desktop\Garuda\all garuda\data\services.json"
+    file_path = r"./data/services.json"
     try:
         with open(file_path, 'r') as file:
             return json.load(file)
@@ -69,7 +69,7 @@ def load_services_data():
     
 # Load shop.json data from the given file path (new integration)
 def load_shop_data():
-    file_path = r"C:\Users\Administrator\Desktop\Garuda\all garuda\data\shop.json"
+    file_path = r"./data/shop.json"
     try:
         with open(file_path, 'r') as file:
             return json.load(file)
@@ -78,7 +78,7 @@ def load_shop_data():
     
 # Load the training.json data from the given file path (new integration)
 def load_training_data():
-    file_path = r"C:\Users\Administrator\Desktop\Garuda\all garuda\data\training.json"
+    file_path = r"./data/training.json"
     try:
         with open(file_path, 'r') as file:
             return json.load(file)
