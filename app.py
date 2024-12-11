@@ -456,15 +456,45 @@ def get_bot_response(user_message):
 def index():
     return render_template('index.html')  # Make sure index.html is in a 'templates' folder
 
-# Flask route for handling user messages
+# Error handler for the /chat endpoint
 @app.route('/chat', methods=['POST'])
 def chat():
-    user_message = request.json.get('message')
-    if not user_message:
-        return jsonify({"error": "No message provided"}), 400
+    try:
+        # Get the user message from the request payload
+        user_message = request.json.get('message')
+        
+        # Check if 'message' is provided
+        if not user_message:
+            return jsonify({"error": "No message provided"}), 400
+        
+        # Log the user input for debugging
+        print("User input =>", user_message)
+        
+        # Call the bot response function
+        response = get_bot_response(user_message)
+        
+        return jsonify({"response": response})
     
-    response = get_bot_response(user_message)
-    return jsonify({"response": response})
+    except KeyError as e:
+        # Handle missing keys in JSON payload
+        return jsonify({"error": f"Missing key: {str(e)}"}), 400
+    
+    except Exception as e:
+        # Catch-all for unexpected errors
+        print(f"Error in /chat endpoint: {e}")
+        return jsonify({"error": "An internal error occurred. Please try again later."}), 500
+
+
+# Global error handler for unhandled exceptions
+@app.errorhandler(Exception)
+def handle_exception(e):
+    # Log the error for debugging purposes
+    print(f"Unhandled exception: {e}")
+    
+    # Return a JSON response with the error details
+    return jsonify({
+        "error": "An unexpected error occurred. Please contact support if the issue persists."
+    }), 500
 
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 5000))  # Use Render-provided PORT
