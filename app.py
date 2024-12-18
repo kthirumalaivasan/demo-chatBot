@@ -2,9 +2,11 @@ import json
 import re
 from fuzzywuzzy import fuzz
 from flask import Flask, request, jsonify, render_template
+from flask_cors import CORS
 import os
 
 app = Flask(__name__)
+CORS(app)
 
 # Load the about_us.json data from the given file path
 def load_about_us_data():
